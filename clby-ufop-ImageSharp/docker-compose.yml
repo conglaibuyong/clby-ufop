@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  clby-ufop-imagesharp:
+    image: clby-ufop-imagesharp
+    build:
+      context: ./clby-ufop-ImageSharp
+      dockerfile: Dockerfile

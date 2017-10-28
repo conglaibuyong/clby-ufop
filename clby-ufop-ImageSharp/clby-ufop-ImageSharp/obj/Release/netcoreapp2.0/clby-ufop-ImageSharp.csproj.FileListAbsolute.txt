@@ -1,0 +1,13 @@
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\bin\Release\netcoreapp2.0\clby-ufop-ImageSharp.deps.json
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\bin\Release\netcoreapp2.0\clby-ufop-ImageSharp.runtimeconfig.json
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\bin\Release\netcoreapp2.0\clby-ufop-ImageSharp.runtimeconfig.dev.json
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\bin\Release\netcoreapp2.0\clby-ufop-ImageSharp.dll
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\bin\Release\netcoreapp2.0\clby-ufop-ImageSharp.pdb
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\bin\Release\netcoreapp2.0\clby-ufop.Core.dll
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\bin\Release\netcoreapp2.0\clby-ufop.Core.pdb
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\obj\Release\netcoreapp2.0\clby-ufop-ImageSharp.csprojResolveAssemblyReference.cache
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\obj\Release\netcoreapp2.0\clby-ufop-ImageSharp.csproj.CoreCompileInputs.cache
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\obj\Release\netcoreapp2.0\clby-ufop-ImageSharp.AssemblyInfoInputs.cache
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\obj\Release\netcoreapp2.0\clby-ufop-ImageSharp.AssemblyInfo.cs
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\obj\Release\netcoreapp2.0\clby-ufop-ImageSharp.dll
+D:\github\clby-ufop\clby-ufop-ImageSharp\clby-ufop-ImageSharp\obj\Release\netcoreapp2.0\clby-ufop-ImageSharp.pdb

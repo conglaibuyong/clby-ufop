@@ -1,0 +1,9 @@
+D:\github\clby-ufop\clby-ufop.Core\clby-ufop.Core\bin\Release\netstandard2.0\clby-ufop.Core.deps.json
+D:\github\clby-ufop\clby-ufop.Core\clby-ufop.Core\bin\Release\netstandard2.0\clby-ufop.Core.dll
+D:\github\clby-ufop\clby-ufop.Core\clby-ufop.Core\bin\Release\netstandard2.0\clby-ufop.Core.pdb
+D:\github\clby-ufop\clby-ufop.Core\clby-ufop.Core\obj\Release\netstandard2.0\clby-ufop.Core.csprojResolveAssemblyReference.cache
+D:\github\clby-ufop\clby-ufop.Core\clby-ufop.Core\obj\Release\netstandard2.0\clby-ufop.Core.csproj.CoreCompileInputs.cache
+D:\github\clby-ufop\clby-ufop.Core\clby-ufop.Core\obj\Release\netstandard2.0\clby-ufop.Core.AssemblyInfoInputs.cache
+D:\github\clby-ufop\clby-ufop.Core\clby-ufop.Core\obj\Release\netstandard2.0\clby-ufop.Core.AssemblyInfo.cs
+D:\github\clby-ufop\clby-ufop.Core\clby-ufop.Core\obj\Release\netstandard2.0\clby-ufop.Core.dll
+D:\github\clby-ufop\clby-ufop.Core\clby-ufop.Core\obj\Release\netstandard2.0\clby-ufop.Core.pdb
