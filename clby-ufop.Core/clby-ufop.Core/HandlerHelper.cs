@@ -14,10 +14,7 @@ namespace clby_ufop.Core
     public static class HandlerHelper
     {
 
-        public const int MaxSize = 1024 * 1024 * 8;
-
-
-        public static async Task<byte[]> GetFileContentsAsync(this Controller controller, int maxSize = MaxSize)
+        public static async Task<byte[]> GetFileContentsAsync(this Controller controller)
         {
             var url = controller.GetStringParameter("url");
 
@@ -34,7 +31,7 @@ namespace clby_ufop.Core
             {
                 using (var br = new BinaryReader(controller.Request.Body))
                 {
-                    fileContents = br.ReadBytes(MaxSize);
+                    fileContents = br.ReadAllBytes();
                 }
             }
 

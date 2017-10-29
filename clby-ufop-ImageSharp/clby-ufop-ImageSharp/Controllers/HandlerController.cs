@@ -14,8 +14,7 @@ namespace clby_ufop_ImageSharp.Controllers
         public async Task<IActionResult> Get()
         {
             var args = this.GetArgs();
-            var Global_MaxSize = args.Params.TryGetInt32("Global_MaxSize", HandlerHelper.MaxSize);
-            var fileContents = await this.GetFileContentsAsync(Global_MaxSize);
+            var fileContents = await this.GetFileContentsAsync();
 
 
             var func = AutofacExtensions.ResolveNamed<IFunc>($"Func_{args.Func}");
@@ -32,8 +31,7 @@ namespace clby_ufop_ImageSharp.Controllers
         public async Task<IActionResult> Post()
         {
             var args = this.GetArgs();
-            var Global_MaxSize = args.Params.TryGetInt32("Global_MaxSize", 1024 * 1024 * 8);
-            var fileContents = await this.GetFileContentsAsync(Global_MaxSize);
+            var fileContents = await this.GetFileContentsAsync();
 
 
             var func = AutofacExtensions.ResolveNamed<IFunc>($"Func_{args.Func}");
