@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  clby-ufop-npoi:
+    image: clby-ufop-npoi
+    build:
+      context: ./clby-ufop-NPOI
+      dockerfile: Dockerfile
