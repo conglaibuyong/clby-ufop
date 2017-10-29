@@ -4,6 +4,7 @@ using clby_ufop.Core.Misc;
 using Microsoft.AspNetCore.Mvc;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
+using System;
 using System.IO;
 
 namespace clby_ufop_ImageSharp.Funcs
@@ -54,16 +55,30 @@ namespace clby_ufop_ImageSharp.Funcs
 
                 if (!base64)
                 {
-                    var ms = new MemoryStream();
-                    image.Save(ms, imageFormat);
+                    //var ms = new MemoryStream();
+                    //image.Save(ms, imageFormat);
 
                     //return new FileStreamResult(ms, contentType);
 
-                    byte[] _fileContents = new byte[ms.Length];
-                    ms.Read(_fileContents, 0, (int)ms.Length);
-                    return new FileContentResult(_fileContents, contentType);
+                    //byte[] _fileContents = new byte[ms.Length];
+                    //ms.Read(_fileContents, 0, (int)ms.Length);
+                    //return new FileContentResult(_fileContents, contentType);
 
                     //return new FileContentResult(fileContents, "image/jpeg");
+
+                    var dirpath = Path.Combine(AppContext.BaseDirectory, "files");
+                    if (!Directory.Exists(dirpath))
+                    {
+                        Directory.CreateDirectory(dirpath);
+                    }
+                    var filepath = Path.Combine(dirpath, $"{Guid.NewGuid().ToString()}.image");
+
+                    using (FileStream output = File.OpenWrite(filepath))
+                    {
+                        image.Save(output, imageFormat);
+                    }
+
+                    return new PhysicalFileResult(filepath, contentType);
                 }
                 else
                 {
